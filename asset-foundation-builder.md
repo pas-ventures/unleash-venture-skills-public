@@ -183,5 +183,22 @@ Once the CSV is filled and downstream assets are built from it, log:
 - Conversion delta vs. the previous asset built without an Asset Foundation.
 - Quote-recognition rate from the prospect ("yes, that's exactly what I'm dealing with") on the next 5 sales calls. If recognition rate is below 70%, the Foundation is wrong — go back to transcripts.
 
+## Hand-off — what flows downstream
+
+This is the source skill in the GTM stack. Every other skill in this repo expects the Asset Foundation CSV as upstream input. Specifically:
+
+| Asset Foundation Row | Where it flows downstream |
+|---|---|
+| Row 1 — Position | `landing-page-builder` hero context · `outbound-copy-manager` opener line · `prospect-list-builder` ICP filters · `sales-script-creator` qualification |
+| Row 2 — Deepest Desires | `landing-page-builder` headline · `facebook-ads-from-customer-transcripts` hooks · `content-engine` aspirational angles |
+| Rows 3–5 — Up-at-night / Frustrated / Angry | `landing-page-builder` pain story · `outbound-copy-manager` Email 1 problem statement · `outreach-draft-writer` DM hooks · `facebook-ads` problem-led hooks |
+| Row 6 — Tried but failed at | `landing-page-builder` "why this is different" · `outbound-copy-manager` objection handling · `sales-script-creator` competitor section |
+| Rows 7–8 — Trends + Cost of inaction | `drip-campaign-builder` urgency emails · ROI calculator inputs · `content-engine` market-shift commentary |
+| Row 9 — Solution / Vehicle | `landing-page-builder` offer block · `sales-script-creator` pitch · all skills' "what we do" framing |
+| Row 10 — Bodacious Claim | `landing-page-builder` headline · `facebook-ads` primary hook · `outbound-copy-manager` opener |
+| Rows 11–12 — Secondary + Auxiliary Benefits | `landing-page-builder` benefit cards · `drip-campaign-builder` nurture stories · `facebook-ads` body · `content-engine` auxiliary-benefits content type |
+
+Run this skill once per niche. Re-run it quarterly as your customer transcripts pile up — the Foundation compounds with each call.
+
 ## Notes
 This skill is venture-agnostic. It produces an artefact, not a pitch. The artefact is the same shape every time; what differs is the language inside the cells, which must always come from the customer.
