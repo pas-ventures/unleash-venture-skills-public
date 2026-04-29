@@ -133,6 +133,34 @@ Use these structural rules per row, regardless of your industry:
 
 If your filled CSV reads with this kind of specificity — verbs from the transcript, numbers from real conversations, identity-level language in Row 12 — you are done. If it reads like generic SaaS marketing, go back to the transcripts.
 
+## Worked example — single niche, fully filled (illustrative only)
+
+Below is what one column of the CSV looks like for a fictional `{Your Venture}` selling vertical scheduling + intake software to boutique law firms. **Read it for the structural moves, not the content** — your filled cells must come from your own customer transcripts.
+
+| Field | Niche A — solo & 2-partner family-law firms, US East Coast |
+|---|---|
+| **Position** | Solo or 2-partner family-law firms · Boston / NYC / DC metro · 1–4 staff · billing $300–600k/yr · married, mid-40s, kids in school · 5–15 years in own practice |
+| **Deepest Desires** | "Get the admin off my desk so I can do the law I went to law school for." Status: be the firm clients refer friends to. Security: predictable book without chasing. |
+| **Up at night** | Losing the next big retainer to the firm two streets over that has a real intake system. Becoming a one-trick small firm forever. |
+| **Frustrated by** | Calendly never syncs to the conflict-check process. Paralegal turnover. The 11pm email triage that never ends. *"I built this firm to escape that life and now I'm doing it again."* |
+| **Angry at** | The cost of every legal-tech tool they've bought and abandoned. The bar association's "innovation" CLEs that never address actual workflow. |
+| **Tried but failed at** | A generic case-management platform (too big), virtual paralegals (couldn't handle conflicts), a junior associate who left in 8 months, three intake-form tools. |
+| **Trends + threats** | Larger firms productising fixed-fee family-law packages. AI intake bots showing up in competitor websites. Younger clients expecting same-day response. |
+| **Cost of inaction + time** | Continued 60-hr weeks. Slow but real attrition of high-value clients to better-systematised firms. Window: 12–24 months before the gap is unbridgeable. |
+| **Solution / Vehicle** | `{Your Venture}` — vertical intake + scheduling + conflict-check stack purpose-built for solo and 2-partner family-law. |
+| **Bodacious Claim** | "Get every new-client inquiry, conflict-checked and on the calendar, before you finish your morning coffee — or we work for free until it does." |
+| **Secondary Benefits** | 6+ hours/week back. Zero missed intakes. Paralegal cost down 30–50%. End of the 11pm email run. No more lost-conflict embarrassment. |
+| **Auxiliary Benefits** | Sleep through the night. Be home for dinner. Feel like the senior practitioner you are, not the receptionist of your own firm. Stop apologising to your spouse for the laptop at the dinner table. |
+
+### What this column shows you (the structural moves)
+
+- **Row 2 maps to Row 10.** *"Do the law I went to law school for"* → *"every inquiry on the calendar before coffee."* Same idea, expressed two ways.
+- **Row 6 names specific failed alternatives.** *"Generic case-management platform, virtual paralegals, junior associate, three intake-form tools."* Not abstract.
+- **Row 12 is identity, not features.** *"Sleep through the night. Be home for dinner."* The auxiliary benefits row is often what closes the sale.
+- **Direct quotes appear** in Row 4 (`"I built this firm to escape that life..."`). Customer voice is non-negotiable.
+
+If your filled CSV has cells with this kind of specificity — verbs from the transcript, named alternatives, identity-level Row 12 — you're done. If it reads like generic SaaS marketing, go back to the transcripts.
+
 ## Anti-patterns (what makes this skill fail)
 
 - **Skipping the cluster step.** If you fill one big column for "all customers," every downstream asset will be vague. The whole point is that copy converts when it speaks to *a niche*, not *the market*.
