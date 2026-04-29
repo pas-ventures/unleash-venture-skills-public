@@ -119,6 +119,14 @@ Before delivering, verify:
 - [ ] `{SENDER_NAME}` and `{BOOKING_LINK}` as placeholders
 - [ ] All 5 Email 1 variants included
 
+## Anti-patterns
+- **Email opens with "I hope you're well."** Instant trash-flag. Open with a specific observation about their world, not a niceness ritual.
+- **Product mentioned before paragraph 2.** Makes the email pitch-shaped from the first line. The prospect's brain pattern-matches "ad" and stops reading.
+- **Generic personalisation tokens without genuine specificity.** `{Company}` doesn't fool anyone. Either personalise with a real, specific reference (their post, their hire, their funding) or skip the variable entirely.
+- **Day-1 CTA asking for a 30-min demo.** Escalator too steep. Day-1 CTA is a yes/no question or a 5-line content share. The demo close is Email 3 at the earliest.
+- **Subject lines longer than 6 words.** Phone preview cuts them. Aim 4–6 words, end with the most curiosity-load.
+- **Email 2 that doesn't reference Email 1.** Feels like a fresh cold blast. Always thread to the previous send so the prospect feels continuity, not noise.
+
 ## Customization Checklist
 Before using, replace these placeholders:
 - `{SENDER_NAME}` — Person sending the emails
@@ -126,3 +134,12 @@ Before using, replace these placeholders:
 - `{DOMAIN}` — Your website domain
 - `{BOOKING_LINK}` — Your Calendly or booking link
 - `{PRODUCT_NAME}` — Your product/service name
+
+## Hand-off — what to consume from upstream
+- **Email 1 opener** ← Asset Foundation Row 1 (Position) + Row 2 (Deepest Desires)
+- **Email 1 body** ← Rows 3–5 (Up-at-night / Frustrated / Angry) — verbatim where possible
+- **Email 2 (alternatives)** ← Row 6 (Tried-but-failed)
+- **Email 3 (close)** ← Row 9 (Solution / Vehicle) + Row 10 (Bodacious Claim)
+- **Subject lines** ← rotate Row 2 (desire) / Row 7 (trend) / Row 10 (claim)
+
+Run `asset-foundation-builder.md` first.

@@ -325,3 +325,12 @@ When invoked, do this in order:
 - Prospects aren't opening up → you're talking >20% of the time; cut your lines.
 - Close rate low → the real blocker wasn't surfaced in discovery; run Phase 5 Loop 1 more aggressively.
 - Using translated phrases in the non-native version → rewrite in that language's real operator voice, not translated.
+
+## Hand-off — what to consume from upstream
+- **Discovery questions** ← Asset Foundation Rows 3–5 (probe each emotional layer separately)
+- **Pitch frame** ← Row 9 (Solution / Vehicle)
+- **Objection responses** ← Row 6 (Tried-but-failed) + Row 8 (Cost of inaction)
+- **Closing language** ← Row 10 (Bodacious Claim) + Row 12 (Auxiliary, identity-level)
+- **Scorecard rubric** ← Rows 1, 2, 9 (does the rep speak the prospect's Position, Desire, Vehicle in their own words?)
+
+Run `asset-foundation-builder.md` first.

@@ -450,6 +450,14 @@ For each category, list 10–20 specific names relevant to your market and geogr
 | LinkedIn DM | High (30–50/month) | Low-Medium (3–7% to response) | Recent trigger event, personalised reference, no better warm path |
 | Cold email | High (50–100/month) | Low (1–3% to response) | Fit ≥ 5, no warm path — use Outbound Copy Manager sequences |
 
+## Anti-patterns
+- **Title-only filters without industry / company-size context.** The list explodes with bad fits. Always combine 2+ filters minimum.
+- **One mega-search instead of 3–5 narrower searches.** You can't A/B the angle. Each pattern should test a different hypothesis about where your ICP self-identifies.
+- **Skipping the disqualifier list.** You burn enrichment budget on profiles you'd never close. Disqualifiers cost minutes, save hundreds of dollars.
+- **Enriching the entire list at $1+/profile before scoring.** Score first (cheap), enrich tier 1 only (expensive). Reverse order torches the budget.
+- **Building Dream 100 from imagination instead of from where your ICP actually gathers.** Reverse-engineer from 5–10 known prospects: what do they follow, listen to, attend, comment on? That's your Dream 100.
+- **Treating Sales Nav as the only source.** Misses post-engagers, podcast guests, conference attendees, content commenters. Multi-source raises top-of-funnel quality.
+
 ## Adaptation Notes
 This skill is venture-agnostic. When applying:
 - Fill the Configuration Template above using your Asset Foundations.
@@ -464,3 +472,12 @@ This skill is venture-agnostic. When applying:
 ---
 
 Status: Live — ready to use now.
+
+## Hand-off — what to consume from upstream
+- **ICP block in the YAML** ← Asset Foundation Row 1 (Position) — direct copy
+- **Disqualifiers** ← Row 6 (failed alternatives — invert into "people who won't ever buy")
+- **Sales Nav title filters** ← Row 1 (job titles) + Row 9 (vehicle context)
+- **Trigger-event filters** ← Row 7 (market trends + threats)
+- **Dream 100 communities** ← Row 6 (where they look for solutions) + Row 1 (where they self-identify)
+
+Run `asset-foundation-builder.md` first.

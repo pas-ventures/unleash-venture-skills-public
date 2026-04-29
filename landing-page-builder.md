@@ -128,6 +128,14 @@ Build high-converting niche landing pages for B2B SaaS targeting German SMBs. Tw
 - `{niche}-signup.html` — Signup flow
 - Store in: `{project-root}/landing-pages/` folder
 
+## Anti-patterns
+- **Hero copy talks about the product, not the prospect's pain.** Hero headline must echo what the prospect already says — not what your team calls the feature.
+- **Generic stock imagery instead of niche-specific scenarios.** A dental-practice CRM page with stock office photos converts worse than the same page with a real reception-desk shot.
+- **More than one primary CTA on the page.** The brain freezes when forced to choose. One headline CTA, one secondary, no third.
+- **A signup form with more than 3 required fields on first capture.** Every extra field cuts conversion ~7%. Email first; everything else can come later.
+- **No commitment ladder behind a "Learn more" CTA.** "Learn more" is not a CTA — it's a stall. Always escalate to a date, a download, or a calendar slot.
+- **Long-form copy with no scannable subheadings.** Readers leave in 8 seconds without subheadings; subheadings let them self-qualify.
+
 ## Customization Checklist
 Before using, replace these placeholders:
 - `{PRODUCT_NAME}` — Your product/service name
@@ -135,3 +143,14 @@ Before using, replace these placeholders:
 - `{FOUNDER_NAME}` — Founder name for team section
 - `{DOMAIN}` — Your website domain
 - `{WEBHOOK_URL}` — Your form submission endpoint (e.g., Zapier, Make, custom API)
+
+## Hand-off — what to consume from upstream
+- **Hero headline** ← Asset Foundation Row 10 (Bodacious Claim) + Row 2 (Deepest Desires)
+- **Pain story section** ← Rows 3–5 (Up-at-night / Frustrated / Angry) — use direct quotes from transcripts
+- **"Why this is different"** ← Row 6 (Tried-but-failed) — name the failed alternatives explicitly
+- **Stats bar** ← Row 7 (Trends) + Row 11 (quantified Secondary Benefits)
+- **Feature cards** ← Row 11 (each card frames one quantified benefit)
+- **Daily-example / scenario** ← Row 12 (Auxiliary Benefits — identity-level payoff)
+- **Objection FAQ** ← Row 6 + Row 4 (frustration sources)
+
+Run `asset-foundation-builder.md` first if you don't have a filled CSV.

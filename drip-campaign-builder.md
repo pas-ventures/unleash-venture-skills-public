@@ -201,3 +201,13 @@ This skill is product-agnostic. When applying to a specific product:
 - For B2B SaaS: emphasize ROI math and integration ease
 - For services: emphasize personal touch and relationship
 - For nonprofits/NGOs: emphasize mission impact, not just efficiency
+
+## Hand-off — what to consume from upstream
+- **Email 1 (pain echo)** ← Asset Foundation Rows 3–5 (Up-at-night / Frustrated / Angry)
+- **Email 2 (false alternatives)** ← Row 6 (Tried-but-failed)
+- **Email 3 (cost of inaction)** ← Row 8 (CoI + time horizon)
+- **Email 4 (intro the vehicle)** ← Row 9 (Solution / Vehicle)
+- **Email 7 (transformation)** ← Rows 11–12 (Secondary + Auxiliary Benefits)
+- **Email 11 (offer + value stack)** ← Row 10 (Bodacious Claim) + Row 11 (quantified benefits)
+
+Run `asset-foundation-builder.md` first.

@@ -444,6 +444,14 @@ IF PROSPECT REPLIES AT ANY POINT:
   STOP sequence → Have a real conversation → Founder takes over directly
 ```
 
+## Anti-patterns
+- **Sending the connection request without 5 days of pre-engagement.** Request-rejection rate jumps. Pre-engagement (likes + comments + shares) earns the right to message.
+- **Identical opener across all 4 prospect types.** The templates exist precisely because Trigger / Operator / Peer / Post-Engagement need different hooks. Same opener everywhere = no opener.
+- **Pitch in the value message.** Keep Day-3 pure value. The close is Day-14. Pitching too early collapses the sequence.
+- **Using `{first_name}` without checking it's actually their first name.** "Dr.", "Prof.", or a surname in that field reads as a bot in 0.1 seconds.
+- **Linking content longer than 5 minutes to read.** They won't read it. They'll dodge. Lead with a 90-second piece or a single insight; save the long read for follow-up.
+- **Skipping the pre-sequence warm-up because it feels slow.** It is slow. It also doubles reply rates. The patient version compounds; the impatient version flatlines.
+
 ## Adaptation Notes
 This skill is venture-agnostic. When applying:
 - Fill the Configuration Template above using your Asset Foundations.
@@ -458,3 +466,11 @@ This skill is venture-agnostic. When applying:
 ---
 
 Status: Live — ready to use now.
+
+## Hand-off — what to consume from upstream
+- **Connection-request hook** ← Asset Foundation Row 1 (Position trigger) + Row 7 (Trend)
+- **Value-message body** ← Rows 3–5 (emotional pain) + Row 6 (failed alternatives)
+- **Follow-up data point** ← Row 7 (specific trend stat — sourced and citable)
+- **Soft close** ← Row 10 (Bodacious Claim, framed as conversation invite, not pitch)
+
+Run `asset-foundation-builder.md` first.

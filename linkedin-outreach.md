@@ -185,3 +185,11 @@ Before using, replace these placeholders:
 - `{your_area}` — Your domain/industry
 - `{company}` — Target's company (personalized per message)
 - `{TRACKING_TOOL}` — Your CRM or project management tool (ClickUp, Linear, Notion, etc.)
+
+## Hand-off — what to consume from upstream
+- **Connection request** ← Asset Foundation Row 1 (Position) + Row 2 (Deepest Desires) — keep it 250 chars
+- **DM 1 (warmth)** ← Row 6 (Tried-but-failed) + Row 11 (peer reference)
+- **DM 2 (insight)** ← Row 7 (Trends) + Row 12 (Auxiliary)
+- **DM 3 (CTA)** ← Row 9 (Solution) + Row 10 (Bodacious Claim, framed as low-commitment ask)
+
+Run `asset-foundation-builder.md` first.

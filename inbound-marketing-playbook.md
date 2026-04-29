@@ -478,3 +478,15 @@ This playbook is venture-agnostic. When applying to a specific venture:
 - For B2B SaaS: emphasize ROI math and integration ease
 - For services: emphasize personal touch and relationship
 - For nonprofits/NGOs: emphasize mission impact, not just efficiency
+
+## Hand-off — what to consume from upstream
+This combined playbook consumes Asset Foundation rows into both the landing page and the drip sequence:
+
+- **Landing-page hero** ← Row 10 (Bodacious Claim) + Row 2 (Deepest Desires)
+- **Landing-page pain story** ← Rows 3–5
+- **Landing-page proof / stats** ← Row 11 (quantified)
+- **Drip Email 1–3 (pain → false alternatives → cost of inaction)** ← Rows 3–5, Row 6, Row 8
+- **Drip Email 4 (introduce the vehicle)** ← Row 9
+- **Drip Email 11 (offer)** ← Row 10 + Row 11
+
+Run `asset-foundation-builder.md` first.

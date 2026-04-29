@@ -577,6 +577,14 @@ publish_to: {YOUR_PRIMARY_CHANNELS}
 - **Market event:** A macro or industry shift that affects your prospects this week.
 - **Contrarian observation:** A specific data point that contradicts industry conventional wisdom — sourced and citable.
 
+## Anti-patterns
+- **Voice profile built from one piece of content.** Not enough signal — opening patterns, signature moves, and anti-patterns only emerge across 5+ samples. Pull more before profiling.
+- **Headlines that include "AI" or trendy buzzwords the founder would never say.** Reads as ghostwritten in the first sentence. Every headline must pass the "would the founder text this?" test.
+- **Founder voice mimicked syntactically but no actual point of view in the content.** Style without stance is hollow. Each piece must commit to one specific argument the founder would defend.
+- **Publishing without the metadata block.** You can't measure what you can't tag. No metadata = no learning loop = no compounding.
+- **Substack post that reads like a LinkedIn post.** Different reader, different cadence. Substack tolerates 1,500 words; LinkedIn dies past 300. Don't reuse the same draft across both.
+- **Type 4 (market commentary) without expertise to back it up.** Sounds like takes-without-skin. Either earn the right to comment with prior analysis, or pick a different content type.
+
 ## Adaptation Notes
 This skill is venture-agnostic. When applying:
 - Fill in the placeholders above using your Asset Foundations as the source.
@@ -585,3 +593,12 @@ This skill is venture-agnostic. When applying:
 - For B2B SaaS: emphasize ROI calculations, integration stories, before/after workflows.
 - For services: emphasize relationships, trust signals, transformation narratives.
 - For consumer: emphasize identity, community, aspiration.
+
+## Hand-off — what to consume from upstream
+- **Voice fingerprint** ← founder's existing content (independent input — not from Asset Foundation)
+- **Topic / headline patterns** ← Asset Foundation Row 7 (trends) + Row 6 inverted (contrarian observations)
+- **Article body anchors** ← Rows 3–5 (pains addressed) + Rows 11–12 (benefits delivered)
+- **False beliefs to dismantle** ← Row 6 (failed alternatives) + Row 4 (frustration sources)
+- **Bodacious headline formula** ← Row 10
+
+Run `asset-foundation-builder.md` first for the customer-side inputs; the voice fingerprint is independent.

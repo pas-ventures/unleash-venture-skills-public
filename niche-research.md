@@ -119,3 +119,13 @@ Output format:
 - [ ] Industry jargon verified (not generic business terms)
 - [ ] Ansprache confirmed (Du vs Sie) — Rule of thumb: Sie for formal industries (Steuerberater, Ärzte, Anwälte, Hausverwaltungen), Du for trades and informal (Handwerker, Gastro, Fitness)
 - [ ] Sources listed for key claims
+
+## Hand-off — relationship with Asset Foundation
+Niche Research is the **outside-in** view (market structure, association data, public discourse). Asset Foundations is the **inside-out** view (one prospect at a time). They cross-validate:
+
+- **Niche pains (Niche Research)** should match Asset Foundation Rows 3–5 (Up-at-night / Frustrated / Angry). If they don't, your transcripts may not be representative — or your secondary research is stale.
+- **Market size context (Niche Research)** ↔ Asset Foundation Row 7 (Trends + threats)
+- **Industry jargon (Niche Research)** ↔ verbatim language in Asset Foundation Rows 3–5 + Row 6
+- **Suggested hooks (Niche Research)** ↔ Asset Foundation Row 10 (Bodacious Claim formulas)
+
+Run both in parallel before any copy. Discrepancies between them are signal, not noise.

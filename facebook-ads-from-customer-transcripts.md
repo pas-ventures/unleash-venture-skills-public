@@ -85,3 +85,12 @@ From the context in the transcripts, describe:
 - Body sounds like your landing page. Rewrite in first-person using transcript language.
 - No "do not use" list. You'll ship jargon by accident.
 - Creative brief skipped. Stock images kill ad performance.
+
+## Hand-off — what to consume from upstream
+- **Hook variants** ← Asset Foundation Row 10 (Bodacious Claim) + Rows 3–4 (pain hooks)
+- **Body copy** ← Row 2 (Desires) + Row 12 (Auxiliary, lifestyle payoff)
+- **CTA variants** ← Row 9 (Vehicle, named simply)
+- **Creative brief / scene direction** ← Row 1 (Position — setting, situation, who's nearby)
+- **"Do not use" list** ← inverse of Row 1's vocabulary (jargon insiders use that scrollers won't recognise in 3 seconds)
+
+Run `asset-foundation-builder.md` first.
