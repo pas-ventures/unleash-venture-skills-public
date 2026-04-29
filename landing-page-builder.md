@@ -107,6 +107,47 @@ Build high-converting niche landing pages for B2B SaaS targeting German SMBs. Tw
 - Success screen shows booking link (e.g., Calendly)
 - Landing page must link to `{niche}-signup.html` in all CTAs
 
+## Worked example — illustrative only
+
+Below is what the hero + pain-story sections look like for a fictional `{Your Venture}` selling a dental-practice CRM. Read for the structural moves — the language must come from your own niche research and Asset Foundations.
+
+### Hero (Step 2 output)
+
+```
+🦷 73% of independent dental practices report missing 1+ recall appointments
+   per day to scheduling glitches. Industry data.
+
+Headline:    Patient recalls don't have to be a Monday-morning fight.
+             So lösen es die führenden Praxen unter 10 Stuhlplätzen.
+
+Sub-line:    No new software for your team. No IT project. Built by
+             dentists, for dentists. Server in Germany.
+
+CTA:         Jetzt herausfinden, wie führende Zahnarztpraxen
+             unter 10 Stuhlplätzen ihre Recalls automatisieren.
+
+Trust:       Kein IT-Projekt · Kein technisches Wissen nötig
+             Von Praxisinhabern für Praxisinhaber · Server in Deutschland
+```
+
+### Pain story (Step 3 output)
+
+> Montagmorgen, 7:45. Frau Dr. {Name} öffnet die Praxis. 14 Anrufe auf der Mailbox vom Wochenende, davon 9 Recall-Verschiebungen. Die Helferin am Empfang ist heute krank. Bis 9 Uhr sind die ersten drei Patienten schon da — zwei davon mit Terminen, die im System nicht mehr gepflegt sind. Sie macht den Spagat zwischen Behandlung und Telefonat den ganzen Vormittag. Mittags ist sie schon ausgelaugt. Das ist die Praxis, die sie sich nie aufbauen wollte.
+>
+> *"Ich wollte Zahnärztin sein, keine Telefonzentrale."*
+
+Trotzdem gibt es Praxen, die es anders machen.
+
+### What this example shows you (the structural moves)
+
+- **Stat-led hero** with a concrete percentage and a cited source.
+- **Niche-specific scenario**: Stuhlplätze, Empfang, Recalls — the prospect recognises their world in the first paragraph.
+- **Pull-quote**: customer-voice in italics ends the pain section.
+- **CTA is curiosity, not sales**: *"Jetzt herausfinden..."* not *"Kostenlos testen"*.
+- **Trust line** addresses the niche's three biggest fears explicitly: technical complexity, foreign software, data location.
+
+If your hero + pain story read with this kind of niche specificity — real industry stats, real terminology, customer voice in the pull-quote — you're done. If it reads like generic SaaS copy, go back to Step 1 and dig deeper.
+
 ## Language Rules
 - German (du-Form or Sie-Form depending on niche), professional but warm
 - NO "AI", "KI", "künstliche Intelligenz" in headlines or CTAs

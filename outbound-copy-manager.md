@@ -119,6 +119,78 @@ Before delivering, verify:
 - [ ] `{SENDER_NAME}` and `{BOOKING_LINK}` as placeholders
 - [ ] All 5 Email 1 variants included
 
+## Worked example — illustrative only
+
+Below is what a 3-email sequence looks like for a fictional `{Your Venture}` selling a vertical accounting platform to small CPA firms in the US. Read for the structural moves — your copy must come from your own customer transcripts.
+
+### Email 1 — Variant A (problem-led opener, ~120 words)
+
+```
+Subject: 11pm reconciliations again?
+
+{First name},
+
+Saw you've been running {firm name} for {N} years out of {city}. Most 2–4-partner CPA shops I talk to in {state} say the same thing about January–April: the reconciliation work pushes the partners back to the desk after dinner. Three weekends in a row.
+
+We built {Your Venture} for exactly that pattern. Vertical-built for CPA firms under 10 staff. Bookkeeping platform pulls in feeds, AI categorises, exceptions land in a queue your senior reviews — not your partners.
+
+Three of our pilot firms cut their April overtime by 60%+ in their first season.
+
+Worth a 15-minute look at how it works for {firm name}? I have Wednesday or Thursday next week open.
+
+— {Sender}
+```
+
+### Email 1 — Variant B (peer social-proof opener, ~110 words)
+
+```
+Subject: How {peer firm} cut April overtime 60%
+
+{First name}, quick note — {peer firm} (similar size to {firm name}, also serving small businesses in {state}) used {Your Venture} this past tax season. Partners home by 7pm during the busy weeks. April overtime down 60%+ vs prior year.
+
+The platform is built specifically for 2–4-partner CPA firms — feeds, categorisation, exceptions queue. No Excel rebuild, no migration project.
+
+Open to a 15-minute walkthrough? Wednesday or Thursday next week works on my side.
+
+— {Sender}
+```
+
+### Email 2 — Follow-up (Day 4, ~120 words)
+
+```
+Subject: Re: 11pm reconciliations again?
+
+{First name}, following up. Specific point that landed with most CPAs we talk to:
+
+{Your Venture}'s exception queue cuts 80–90% of the manual review work. The remaining 10–20% — the genuinely ambiguous transactions — still hit your senior. That's the whole point. The platform doesn't try to replace judgment, it just stops you doing the easy 80% by hand at midnight.
+
+If the timing is wrong this season, that's totally fine. If it's the value, I'd love to know what's missing — written reply works, no need for a call.
+
+— {Sender}
+```
+
+### Email 3 — Breakup (Day 9, ~80 words)
+
+```
+Subject: Closing the loop
+
+{First name}, last note — assuming this isn't the right time. I'll stop here so I'm not in the way.
+
+If anything changes between now and next January, you know where to find me. And if you'd ever want me to reach out to a peer in {state} who's a better fit, I'm always open to that.
+
+— {Sender}
+```
+
+### What this example shows you (the structural moves)
+
+- **Subject lines name the pain in their words** ("11pm reconciliations") — not generic ("Quick question").
+- **Two opener variants test different angles** (problem-led vs peer social-proof). Send each to half the list and compare reply rates.
+- **Vertical specificity** ("2–4-partner CPA shops in {state}") earns the right to be in their inbox. Generic outbound dies on opener.
+- **Email 2 introduces a concrete mechanism** (the exception queue) — moves from "we have a thing" to "here's why it works for your specific workflow."
+- **Email 3 (breakup) is honest, low-pressure, asks for a referral** — the highest-yielding cold breakup pattern in B2B.
+
+If your sequence reads with this kind of niche-specific concreteness — real terms, real cadence-fit reasoning, no vague "we help companies achieve growth" — you're done.
+
 ## Anti-patterns
 - **Email opens with "I hope you're well."** Instant trash-flag. Open with a specific observation about their world, not a niceness ritual.
 - **Product mentioned before paragraph 2.** Makes the email pitch-shaped from the first line. The prospect's brain pattern-matches "ad" and stops reading.

@@ -86,6 +86,64 @@ From the context in the transcripts, describe:
 - No "do not use" list. You'll ship jargon by accident.
 - Creative brief skipped. Stock images kill ad performance.
 
+## Worked example — illustrative only
+
+Below is what hooks + body + CTAs look like for a fictional `{Your Venture}` running ads for a boutique creative agency targeting Series-A SaaS founders. Read for the structural moves — your copy must come from your own customer transcripts.
+
+### Three hook variants (test all three, kill the loser)
+
+```
+Hook A — problem-statement, mirrors customer language:
+"My deck looked like a pitch for the wrong company. We
+weren't a feature-list anymore. We were a category."
+
+Hook B — failure-of-alternatives:
+"We hired three freelance designers before we figured out
+the issue wasn't design. It was that nobody was asking why."
+
+Hook C — moment-of-recognition:
+"The investor who passed told us our brand made us look
+like a feature, not a platform. That feedback cost us a
+$4M round."
+```
+
+### Body (one variant, ~80 words)
+
+```
+After our Series A pre-empted by 6 months, we needed a brand
+that matched where the company was going — not where it was
+last year. {Your Venture} ran 6 weeks of strategy interviews
+before they touched a Figma file. The new identity launched
+two weeks before our board offsite. Same week, two outbound
+prospects mentioned the new positioning unprompted on first
+calls. The first time that's ever happened to us.
+
+— {Founder name}, {Company}, Series A SaaS
+```
+
+### CTA variants
+
+```
+CTA A (low commitment):  "See the 6-week process"
+CTA B (specific outcome): "Book your brand strategy call"
+CTA C (peer signal):     "Join 12 Series-A founders we've worked with this year"
+```
+
+### "Do not use" list (Step 5 output for this niche)
+
+- Generic creative-agency words: *"vibrant"*, *"award-winning"*, *"world-class"* — your customers never used these.
+- Process-y language: *"our proprietary methodology"*, *"design thinking workshops"* — the customer cares about outcomes, not method names.
+- Anything that could appear in a stock-photo agency ad. If it could be the same ad with a different logo, kill it.
+
+### What this example shows you (the structural moves)
+
+- **Each hook is verbatim or near-verbatim from a customer call.** Hook A and C are direct quotes; Hook B is a tight paraphrase. None invent emotion that wasn't said.
+- **The body is a single customer story with a specific moment of recognition** — concrete, time-bound, falsifiable.
+- **CTAs ladder commitment**: low (browse) → specific (call) → peer signal (join). Test all three; the winning CTA pairs with the winning hook.
+- **The "do not use" list is as important as the ad copy.** Most failed Meta ads die on industry-cliché vocabulary the customer never used.
+
+If your hooks read like direct quotes from your transcripts and your CTAs ladder commitment, you're done. If they read like generic agency-marketing, go back to the transcripts.
+
 ## Hand-off — what to consume from upstream
 - **Hook variants** ← Asset Foundation Row 10 (Bodacious Claim) + Rows 3–4 (pain hooks)
 - **Body copy** ← Row 2 (Desires) + Row 12 (Auxiliary, lifestyle payoff)
