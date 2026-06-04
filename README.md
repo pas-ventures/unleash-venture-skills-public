@@ -113,10 +113,6 @@ These skills were first battle-tested on German B2B SMB niches, so you'll see DA
 
 The **Sales Script Creator** is bilingual by design (EN / DE) and outputs both languages natively.
 
-## Q&A Transcripts
-
-The [`qa-transcripts/`](qa-transcripts/) folder contains anonymised transcripts of Unleash community Q&A sessions. Drop one into a Claude conversation and ask questions — they're a useful pattern-matching resource alongside the skills.
-
 ## Validating Your Asset Bundle
 
 Before pushing assets into paid channels or your sales pipeline, run these 5 checks. They're cheap, fast, and catch the failure modes that kill conversion before it starts. Most operators have one product / one niche — these checks are how you stress-test your single bundle from different angles before you spend a euro.
