@@ -1,5 +1,17 @@
 # Landing Page Builder Skill
 
+### At a glance
+
+**Who it's for** — Founders who need a niche landing page to capture leads — built originally for B2B SaaS targeting German SMBs, but the structure adapts to any niche.
+
+**What it does for you** — Produces a two-page setup — landing page plus a multi-step signup with progressive email capture — built on your customer's real pains and language.
+
+**When to use it** — When you need the entry point of an inbound funnel: somewhere to send traffic that captures qualified leads.
+
+**Where it comes from** — Direct-response landing-page structure, applied across Unleash ventures.
+
+**How to use it** — Feed it your Asset Foundations and brand inputs (or an existing page to adapt); it generates the landing and signup pages ready to ship.
+
 ## Overview
 Build high-converting niche landing pages for B2B SaaS targeting German SMBs. Two-page setup: Landing Page + Signup Page with progressive email capture.
 

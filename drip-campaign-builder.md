@@ -1,5 +1,17 @@
 # Drip Campaign Builder Skill
 
+### At a glance
+
+**Who it's for** — Founders and operators capturing inbound leads who need those leads nurtured to a call or sale, instead of going cold after the opt-in.
+
+**What it does for you** — Builds a research-driven 12-email, 25-day nurture sequence grounded in your audience's real pains, so each email moves the lead toward a decision.
+
+**When to use it** — After a lead leaves their email on a landing page. This is post-opt-in nurture, not cold outbound.
+
+**Where it comes from** — Dan Kennedy, Alex Hormozi, and Russell Brunson, applied across Unleash ventures.
+
+**How to use it** — Give it your product, audience, and any customer research; it outputs the full 12-email sequence ready to load into your email tool.
+
 ## When to Use
 - "Build a drip campaign for [target group]"
 - "Create an email nurture sequence for [product/service]"

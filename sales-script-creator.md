@@ -6,6 +6,20 @@ type: skill
 
 # Sales Script Creator
 
+### At a glance
+
+**Who it's for** — Founders selling into a niche they haven't sold into before, who have a handful of customer interview or discovery transcripts and lose deals between the first and second call.
+
+**What it does for you** — Builds a complete bilingual (EN/DE) sales system — discovery script, closing framework, post-call scorecard, and pattern template — using your customers' actual words.
+
+**When to use it** — When you're launching outbound into a new niche and need both a discovery and a closing script you can run the same day.
+
+**Where it comes from** — Jordan Belfort (Straight Line), Alex Hormozi (Value Equation), and Noah Kagan (validation-first), applied across Unleash ventures.
+
+**How to use it** — Provide your niche, ICP, offer, and 5–10 transcripts; it produces a customer-language-grounded discovery + closing pack.
+
+---
+
 Bilingual (EN / DE) generator for a complete sales system: discovery script + closing framework + post-call scorecard + pattern-analysis template. Ground-truth sourced from YOUR customer transcripts, not invented.
 
 ## When to Run

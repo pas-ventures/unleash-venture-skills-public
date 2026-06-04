@@ -1,5 +1,17 @@
 # Content Engine Skill
 
+### At a glance
+
+**Who it's for** — Founder-led businesses where the founder is the brand and wants to publish consistently across LinkedIn, Substack, YouTube, or a newsletter without the output sounding generic.
+
+**What it does for you** — Learns your voice from your existing content, researches your audience's real language, and produces publish-ready pieces — articles, LinkedIn posts, video scripts, newsletter editions — written in your voice, built from your material.
+
+**When to use it** — Whenever you're building authority and need steady content output, or want to convert a partner question, analysis, or market event into a finished piece.
+
+**Where it comes from** — Dan Kennedy (PAS), Alex Hormozi, Russell Brunson, and Robert Cialdini, applied across Unleash ventures.
+
+**How to use it** — Point Claude at your past content so it learns your voice, give it a topic or raw input, and it returns platform-ready drafts in a Google Doc, Notion, or markdown for review.
+
 ## When to use
 - "Create content pieces for [venture/brand]"
 - "Turn this [partner question / analysis / market event] into an article"

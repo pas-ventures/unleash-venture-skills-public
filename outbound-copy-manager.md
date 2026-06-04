@@ -1,5 +1,17 @@
 # Outbound Copy Manager Skill
 
+### At a glance
+
+**Who it's for** — Founders running cold outbound email into specific niches — built for German SMB markets, with peer-to-peer framing and DSGVO-safe language baked in.
+
+**What it does for you** — Creates and manages cold email sequences that open on the prospect's pain, using peer social proof and a soft, founder-to-founder tone — no pitch in the first message.
+
+**When to use it** — When you're starting cold outbound into a new niche or iterating copy off A/B results.
+
+**Where it comes from** — Hormozi, Belfort, and Brunson, applied across Unleash ventures.
+
+**How to use it** — Give it the niche and offer; it produces ready-to-send markdown email sequences you can drop into your sending tool.
+
 ## When to Use
 - "Write outbound emails for [niche]"
 - "Create a cold email sequence for [target group]"

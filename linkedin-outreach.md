@@ -1,5 +1,17 @@
 # LinkedIn Outreach Skill
 
+### At a glance
+
+**Who it's for** — Founders building a prospect or partner pipeline through LinkedIn who want a systematic, safe outreach workflow rather than ad-hoc DMs.
+
+**What it does for you** — Builds target lists, drafts personalized connection requests and DM sequences, tracks pipeline, and keeps you inside LinkedIn's safety limits so your account stays healthy.
+
+**When to use it** — When LinkedIn is a primary channel for sourcing prospects, partners, or hires and you want a repeatable workflow.
+
+**Where it comes from** — Proven outreach practice plus current LinkedIn limits, applied across Unleash ventures.
+
+**How to use it** — Give it your target criteria; it returns lists and personalized message sequences for you to review and send in safe daily batches.
+
 ## When to Use
 - "Run LinkedIn outreach for [campaign]"
 - "Send connection requests to [target list]"

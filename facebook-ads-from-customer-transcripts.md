@@ -6,6 +6,18 @@ type: skill
 
 # Facebook Ads From Customer Transcripts
 
+### At a glance
+
+**Who it's for** — B2C and SMB-B2B founders running (or about to run) Meta / Facebook / Instagram ads who have a stack of customer interviews or sales-call transcripts.
+
+**What it does for you** — Mines your customers' own words and produces a battery of ad variants — 10 hooks, 5 bodies, 5 CTAs, a creative brief, and a "do not use" list — written in your customer's language, not your marketing team's.
+
+**When to use it** — When you're launching or refreshing a Meta ad campaign and want copy grounded in real customer language.
+
+**Where it comes from** — Direct-response copy principles applied to paid social, across Unleash ventures.
+
+**How to use it** — Drop in 5–20 transcripts plus your offer, audience, and landing page; it returns a single document of ready-to-test ad copy.
+
 ## When to Run
 - You're launching a Meta / Facebook / Instagram ad campaign.
 - You've done 5+ customer interviews or have a stack of sales call transcripts.

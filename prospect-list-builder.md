@@ -1,5 +1,17 @@
 # Prospect List Builder Skill
 
+### At a glance
+
+**Who it's for** — Founders about to launch outbound, cold email, or an ABM play who need a prioritized list of high-fit prospects built from clear criteria.
+
+**What it does for you** — Sharpens your ICP, builds the Sales Navigator searches, exports and enriches the data, then scores each prospect by fit, warmth, and timing — including a Dream 100 of where they gather.
+
+**When to use it** — Before any outbound campaign, to make sure you're targeting the right people through the warmest available path.
+
+**Where it comes from** — Alex Hormozi's Grand Slam Market and Russell Brunson's Dream 100, applied across Unleash ventures.
+
+**How to use it** — Give it your ICP criteria; it returns a prioritized, enriched prospect list with outreach recommendations.
+
 ## When to Use
 - "Build me a prospect list for [venture]"
 - "Find 100 high-fit prospects for [ICP description]"

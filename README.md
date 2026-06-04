@@ -37,6 +37,11 @@ These are the skills used inside the [Unleash](https://unleash-ventures.com) com
 | **[Content Engine](content-engine.md)** | Framework-driven content production with voice training, target-group research, platform optimization | Producing founder-led thought leadership at scale |
 | **[Facebook Ads From Customer Transcripts](facebook-ads-from-customer-transcripts.md)** | Turn customer transcripts into hook / body / CTA variants in the customer's own language | Running Meta ads in B2C or SMB-B2B |
 
+### Quality + Voice
+| Skill | What it does | Use when |
+|-------|-------------|----------|
+| **[Voice Critic](voice-critic.md)** | Scans any draft for GPT/LLM tells (contrast-clichés, hustle openers, fragment-stacking), detects post vs email register, returns flagged issues + a cleaned rewrite | Before sending or publishing any outward-facing copy |
+
 ## How They Work Together
 
 ```

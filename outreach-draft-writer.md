@@ -1,5 +1,17 @@
 # Outreach Draft Writer Skill
 
+### At a glance
+
+**Who it's for** — Founder-led businesses where the founder's expertise and content are the main trust signal, and outreach should lead with the founder's published work rather than a pitch.
+
+**What it does for you** — Produces personalized, content-first outreach — LinkedIn DMs, emails, connection notes — where every message anchors on a relevant piece you've published, with A/B variants for testing.
+
+**When to use it** — When you want to build relationships with specific prospects using your own content as the door-opener.
+
+**Where it comes from** — Robert Cialdini's 7 Principles of Influence, applied across Unleash ventures.
+
+**How to use it** — Give it a prospect and your content library; it returns a warm-up engagement plan plus tailored message variants.
+
 ## When to Use
 - "Write outreach messages for [prospect name/type]"
 - "Draft LinkedIn DMs for [venture]'s prospects"

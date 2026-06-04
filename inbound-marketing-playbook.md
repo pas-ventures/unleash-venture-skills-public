@@ -1,5 +1,17 @@
 # Inbound Marketing Playbook
 
+### At a glance
+
+**Who it's for** — Founders shipping a full inbound funnel — landing page and email nurture together — who want the two built as one connected flow rather than two disconnected assets.
+
+**What it does for you** — Acts as the orchestrator that sequences the Landing Page Builder and Drip Campaign Builder and adds the alignment logic that makes the hand-off from page to inbox work correctly.
+
+**When to use it** — When you're building both a landing page and a drip campaign for the same offer. If you only need one, use that skill directly.
+
+**Where it comes from** — Composed from the Asset Foundation, Landing Page, and Drip Campaign skills, applied across Unleash ventures.
+
+**How to use it** — Run it once your Asset Foundations are ready; it walks you through landing page → drip → alignment as a single funnel.
+
 ## Overview
 
 Thin orchestrator for building a **landing page + drip campaign as ONE connected funnel**, not two separate assets. The actual production work happens in the upstream skills — this skill adds only the alignment + sequencing logic that's invisible when the two skills run in isolation.
