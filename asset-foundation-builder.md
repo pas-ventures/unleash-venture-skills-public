@@ -1,5 +1,17 @@
 # Asset Foundation Builder Skill
 
+### At a glance
+
+**Who it's for** — Founders and operators entering a new niche, or whose positioning feels generic. Particularly useful if you have customer call recordings, sales-call transcripts, or a stack of niche YouTube / podcast / forum content you haven't worked through yet.
+
+**What it does for you** — Extracts verbatim customer language from those sources and structures it into your *Asset Foundations*: ICP definition, deepest desires and frustrations, failed attempts, and the false beliefs blocking the sale. The result is a CSV and a narrative niche brief that every downstream asset — landing page, ad, sales script — is built from.
+
+**When to use it** — At the very start of a go-to-market push, before you write a landing page, ad, or sales script. Getting the foundation right first means you're working from what customers actually say, not what you assume they feel.
+
+**Where it comes from** — Dan Kennedy's Sales Letter Framework and Russell Brunson's Three False Beliefs, applied across Unleash ventures.
+
+**How to use it** — Drop your call transcripts and source links into a scratch folder, point Claude at this skill, and it outputs a CSV of verbatim customer phrases plus a narrative niche brief. Setup and commands are in the sections below.
+
 ## Overview
 Turn raw customer signal — YouTube transcripts, founder/sales calls, web research, Reddit threads, industry forums, and podcasts — into the **Asset Foundations** every downstream asset depends on: ICP, deepest desires, frustrations, failed attempts, market shifts, the layered benefit stack, and the false beliefs that block conversion.
 
