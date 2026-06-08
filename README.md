@@ -6,6 +6,11 @@ These are the skills used inside the [Unleash](https://unleash-ventures.com) com
 
 ## Skills Included
 
+### Company OS (build this first)
+| Skill | What it does | Use when |
+|-------|-------------|----------|
+| **[How to Run a Company Brain](how-to-run-a-company-brain.md)** | Interviews you about your business, then hands you a ready-to-run build file that scaffolds a complete "company brain" — a folder-based memory Claude draws every answer from, so it stops guessing and remembers your context across chat, Cowork, and Code. Built by a founder in the Unleash community. | Before you automate anything — when you're tired of re-explaining your business to Claude every session |
+
 ### Foundations (start here)
 | Skill | What it does | Use when |
 |-------|-------------|----------|
