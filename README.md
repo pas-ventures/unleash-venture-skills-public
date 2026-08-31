@@ -48,16 +48,13 @@ These are the skills used inside the [Unleash](https://unleash-ventures.com) com
 | **[Venture One-Pager Builder](venture-one-pager-builder.md)** | Audits your completed venture assessment against what an angel or advisor needs to see, tells you what's missing, then builds a branded one-page PDF in your own CI plus the intro blurb that carries it | Approaching an angel, operator, advisor or design partner — or whenever someone says "send me something short" |
 
 ### Quality + Voice
-
-We don't ship our own version of this — [**stop-slop**](https://github.com/hardikpandya/stop-slop) by [Hardik Pandya](https://hvpandya.com) already does it well, and it installs the same way these skills do.
-
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[stop-slop](https://github.com/hardikpandya/stop-slop)** ↗ | Strips the AI tells out of prose: throat-clearing openers, negate-then-correct contrasts, false agency ("the market rewards"), passive voice, business jargon, vague declaratives. Scores the draft out of 50. MIT. | Before sending or publishing any outward-facing copy |
+| **[Unleash Stop Slop](unleash-stop-slop.md)** | Detects which register you're writing in, then strips the AI tells: contrast-clichés, false agency ("the market rewards"), vague attribution, invented concept labels, and the document-level dilution that only shows up at length. Scores the draft out of 50 and returns a cleaned rewrite. | Before sending or publishing anything: investor updates, decks, cold outreach, customer email, posts |
 
-**One caveat when you run it.** stop-slop is tuned for essays, so it strips every adverb, every em-dash and most fragments. That is right for a blog post and wrong for an email to a customer, where warmth is the point — "really impressive" and "remarkably good" are how humans write to each other. Take its structural findings (false agency, passive voice, contrast-clichés, jargon) as gospel, and use judgement on the punctuation and adverb rules.
+Built on **[stop-slop](https://github.com/hardikpandya/stop-slop)** by [Hardik Pandya](https://hvpandya.com) and **[slop-cop](https://github.com/awnist/slop-cop)** by [awnist](https://awnist.com/slop-cop), both MIT. Use the originals if you prefer them — they are excellent, and most of the pattern taxonomy is theirs. What we added is a register model: the same rules that sharpen a LinkedIn post will strip the warmth out of an email to a customer, so this version picks the standard based on what you're actually writing.
 
-**Prefer something with no install?** [slop-cop](https://awnist.com/slop-cop) is a browser editor that highlights 36 of the same patterns as you type. Paste a draft in and it marks the tells live. Nothing to set up, no API key needed for the instant checks.
+**Want it live instead of installed?** [slop-cop](https://awnist.com/slop-cop) is a browser editor that highlights 36 of these patterns as you type. Nothing to set up, no API key needed for the instant checks.
 
 ## How They Work Together
 
