@@ -42,6 +42,11 @@ These are the skills used inside the [Unleash](https://unleash-ventures.com) com
 | **[Content Engine](content-engine.md)** | Framework-driven content production with voice training, target-group research, platform optimization | Producing founder-led thought leadership at scale |
 | **[Facebook Ads From Customer Transcripts](facebook-ads-from-customer-transcripts.md)** | Turn customer transcripts into hook / body / CTA variants in the customer's own language | Running Meta ads in B2C or SMB-B2B |
 
+### Fundraising + Intros
+| Skill | What it does | Use when |
+|-------|-------------|----------|
+| **[Venture One-Pager Builder](venture-one-pager-builder.md)** | Audits your completed venture assessment against what an angel or advisor needs to see, tells you what's missing, then builds a branded one-page PDF in your own CI plus the intro blurb that carries it | Approaching an angel, operator, advisor or design partner — or whenever someone says "send me something short" |
+
 ### Quality + Voice
 | Skill | What it does | Use when |
 |-------|-------------|----------|
@@ -77,6 +82,7 @@ These are the skills used inside the [Unleash](https://unleash-ventures.com) com
 6. **Book calls.** Sales Script Creator turns your customer transcripts into the first-call + closing framework.
 7. **Produce content.** Content Engine for founder-led thought leadership.
 8. **Paid amplification.** Facebook Ads From Customer Transcripts for Meta campaigns.
+9. **Raise or recruit.** Venture One-Pager Builder turns a completed venture assessment into the one page you send an angel, advisor or operator — plus the intro message that gets it opened.
 
 ## How to Use with Claude Code
 
