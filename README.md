@@ -48,9 +48,16 @@ These are the skills used inside the [Unleash](https://unleash-ventures.com) com
 | **[Venture One-Pager Builder](venture-one-pager-builder.md)** | Audits your completed venture assessment against what an angel or advisor needs to see, tells you what's missing, then builds a branded one-page PDF in your own CI plus the intro blurb that carries it | Approaching an angel, operator, advisor or design partner — or whenever someone says "send me something short" |
 
 ### Quality + Voice
+
+We don't ship our own version of this — [**stop-slop**](https://github.com/hardikpandya/stop-slop) by [Hardik Pandya](https://hvpandya.com) already does it well, and it installs the same way these skills do.
+
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Voice Critic](voice-critic.md)** | Scans any draft for GPT/LLM tells (contrast-clichés, hustle openers, fragment-stacking), detects post vs email register, returns flagged issues + a cleaned rewrite | Before sending or publishing any outward-facing copy |
+| **[stop-slop](https://github.com/hardikpandya/stop-slop)** ↗ | Strips the AI tells out of prose: throat-clearing openers, negate-then-correct contrasts, false agency ("the market rewards"), passive voice, business jargon, vague declaratives. Scores the draft out of 50. MIT. | Before sending or publishing any outward-facing copy |
+
+**One caveat when you run it.** stop-slop is tuned for essays, so it strips every adverb, every em-dash and most fragments. That is right for a blog post and wrong for an email to a customer, where warmth is the point — "really impressive" and "remarkably good" are how humans write to each other. Take its structural findings (false agency, passive voice, contrast-clichés, jargon) as gospel, and use judgement on the punctuation and adverb rules.
+
+**Prefer something with no install?** [slop-cop](https://awnist.com/slop-cop) is a browser editor that highlights 36 of the same patterns as you type. Paste a draft in and it marks the tells live. Nothing to set up, no API key needed for the instant checks.
 
 ## How They Work Together
 

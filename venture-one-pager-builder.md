@@ -546,7 +546,7 @@ Run every item. Any fail is a rewrite, not a note.
 - [ ] The page leaves the reader with at least two questions they have to ask you
 - [ ] The brand colours and fonts match their website — confirmed with the founder, not guessed
 - [ ] Read the blurb aloud. Anywhere your voice flattens, cut it
-- [ ] Run the whole thing through the Voice Critic skill before it leaves their hands
+- [ ] Run the whole thing through [stop-slop](https://github.com/hardikpandya/stop-slop) before it leaves their hands
 
 ---
 
@@ -650,5 +650,5 @@ Run every item. Any fail is a rewrite, not a note.
 ## Companion skills
 
 - Run the **venture assessment** first — this skill has nothing to compress without it
-- **Voice Critic** last, on both the page copy and the blurb, before either is sent
+- [**stop-slop**](https://github.com/hardikpandya/stop-slop) last, on both the page copy and the blurb, before either is sent
 - **Outreach Draft Writer** if the intro turns into a sequence rather than a single message
