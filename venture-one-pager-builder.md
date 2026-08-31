@@ -63,7 +63,7 @@ Two of those four are about the *group* rather than the product, and founders un
 
 **It is a teaser for a first conversation.** The reader should finish it knowing the business is real, the market is worth the trip, and there's a specific reason to talk to *you*. They should still have two or three questions. Those questions are the meeting.
 
-That framing decides what goes on the page. A teaser opens on the insight and withholds the round. A document that leads with "$800K on a SAFE at a $4M cap" has asked a stranger to price a deal they aren't yet interested in — and the reader starts doing valuation arithmetic instead of getting curious about the business.
+That framing decides what goes on the page. A teaser opens on the insight and withholds the round. A document that leads with "$1.2M on a SAFE at a $6M cap" has asked a stranger to price a deal they aren't yet interested in — and the reader starts doing valuation arithmetic instead of getting curious about the business.
 
 **A reader gives it forty seconds and asks three things:**
 1. Is this real? — traction, numbers, named customers
@@ -76,7 +76,7 @@ That framing decides what goes on the page. A teaser opens on the insight and wi
 - **The feature dump** — what it does, in ascending detail, and nothing about who pays or why now
 - **The fog** — "significant time savings", "huge market", "strong traction". These phrases tell an investor you haven't measured anything yet
 - **The sprawl** — asking for money, an intro and a co-founder in the same paragraph. Pick one ask
-- **The dashboard** — five or six operational metrics in a row, each needing a glossary. A reader who has to work out what "82% logo retention" or "30+ NPS" means has stopped reading about your business and started reading a report
+- **The dashboard** — five or six operational metrics in a row, each needing a glossary. A reader who has to work out what "78% logo retention" or "30+ NPS" means has stopped reading about your business and started reading a report
 
 **Hold something back on purpose.** Name the mechanism, don't explain it. "A sensor that flags a cold-chain break within four minutes" is enough — the reader who cares will ask how. Answer everything and the one-pager just gets filed.
 
@@ -218,7 +218,7 @@ A reversal headline earns its abstraction only if the line directly beneath it c
 Round numbers read as guesses. Exact numbers read as measurements, and measurements read as a founder who knows their business.
 
 - **Use the exact figure.** $38,000. 1,900 pharmacies surveyed. 12 to 20 rejected claims a week. A round number reads as a guess
-- Give the base with every percentage — "20% of the 30 users we had, against a ~2% category median"
+- Give the base with every percentage — "14% of the 210 trials we ran, against a ~3% category median"
 - Name the source inside the sentence. A reader will not chase a footnote, and an uncited number reads as invented
 - One idea per sentence. If a sentence needs a semicolon to hold together, it's two sentences
 
@@ -263,12 +263,12 @@ Check at least:
 
 - **The market multiplication.** Does the stated segment size × the stated contract value equal the figure they claim?
 - **ARR versus revenue booked in a year.** These are different numbers and they get used interchangeably. Retained accounts × annual price is ARR. Everyone billed during the year × price is bookings. If the plan says "£X ARR by December" and the model says "£X revenue in that year", ask which one it is — it is often a 2× difference
-- **Any percentage against its base.** "40% of accounts add a member at $20" has to reconcile with the revenue line it supposedly produces
+- **Any percentage against its base.** "35% of accounts add a second seat at £60" has to reconcile with the revenue line it supposedly produces
 - **The same metric stated twice.** Current ARPU, ACV, customer count and price appear in several sections. When two sections disagree, even slightly, flag it — an investor reading front to back will see both
 
 Report what doesn't reconcile as a question with the arithmetic shown, never as an accusation:
 
-> **Section 8.1 says "$125K ARR by Dec 2027"; section 8.5 shows $125,051 of revenue booked during 2027, ending at 521 retained accounts.** Those are different claims. 521 accounts at $99 plus 40% adding a $20 member is about $56K of ARR. Which number is the milestone? The bookings figure is the bigger one, and it is the one an investor will discount.
+> **Section 8.1 says "£400K ARR by December"; section 8.5 shows £400,000 of revenue booked during that year, ending at 1,100 retained accounts.** Those are different claims. 1,100 accounts on a £240 annual plan is about £264K of ARR, and the £400K is everyone billed across the whole year. Which one is the milestone? The bookings figure is the bigger number, and it is the one an investor will discount.
 
 ### Step 2b — The readiness audit (the challenge pass)
 
@@ -346,8 +346,8 @@ Under the insight, one short paragraph that turns it into a market: who has this
 **Then two or three heavy numbers. Not five, and not a metrics dashboard.** Each one has to land on a reader who knows nothing about the business:
 
 - **Prefer currency.** What the problem costs a customer a year, what the market is worth, what a customer is worth. Money needs no explanation
-- **Kill any number that needs a glossary.** NPS, "D30 retention", activation rate, "82% logo retention" — these mean something internally and nothing to a first-time reader. If a number would make them ask "what does that mean?", it is costing you, not helping you
-- **Use the ratio when the ratio is the story.** "Converted at ten times the category median" hits harder than "20% conversion", and it survives being read quickly
+- **Kill any number that needs a glossary.** NPS, "D30 retention", activation rate, "78% logo retention" — these mean something internally and nothing to a first-time reader. If a number would make them ask "what does that mean?", it is costing you, not helping you
+- **Use the ratio when the ratio is the story.** "Converted at five times the category median" hits harder than "14% conversion", and it survives being read quickly
 - **Caption each number in one plain sentence** saying why it matters. The number is the hook; the caption is the proof
 
 **Then two short columns:** what you built, in the language a customer would use, and where it goes — how the thing compounds. That second column is what makes an operator lean in.
