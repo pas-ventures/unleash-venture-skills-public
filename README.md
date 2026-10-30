@@ -6,7 +6,7 @@ These are the skills used inside the [Unleash](https://unleash-ventures.com) com
 
 ## Install
 
-This repo is a Claude Code plugin marketplace. The marketplace is called `unleash-ventures` and holds one plugin, `unleash-venture-skills`, which contains all 15 skills.
+This repo is a Claude Code plugin marketplace called `unleash-ventures`. You can install all 15 skills as one plugin, `unleash-venture-skills`, or install only the skills you need: every skill is also its own plugin, named after its folder under [`skills/`](skills/).
 
 ### In Claude Code
 
@@ -16,6 +16,35 @@ This repo is a Claude Code plugin marketplace. The marketplace is called `unleas
 ```
 
 Then run `/reload-plugins`, or start a new session.
+
+### Install only the skills you need
+
+Add the marketplace once, then install each skill you want on its own:
+
+```
+/plugin marketplace add pas-ventures/unleash-venture-skills-public
+/plugin install asset-foundation-builder@unleash-ventures
+```
+
+| Skill | Install |
+|-------|---------|
+| [asset-foundation-builder](skills/asset-foundation-builder/SKILL.md) | `/plugin install asset-foundation-builder@unleash-ventures` |
+| [content-engine](skills/content-engine/SKILL.md) | `/plugin install content-engine@unleash-ventures` |
+| [drip-campaign-builder](skills/drip-campaign-builder/SKILL.md) | `/plugin install drip-campaign-builder@unleash-ventures` |
+| [facebook-ads-from-customer-transcripts](skills/facebook-ads-from-customer-transcripts/SKILL.md) | `/plugin install facebook-ads-from-customer-transcripts@unleash-ventures` |
+| [how-to-run-a-company-brain](skills/how-to-run-a-company-brain/SKILL.md) | `/plugin install how-to-run-a-company-brain@unleash-ventures` |
+| [inbound-marketing-playbook](skills/inbound-marketing-playbook/SKILL.md) | `/plugin install inbound-marketing-playbook@unleash-ventures` |
+| [landing-page-builder](skills/landing-page-builder/SKILL.md) | `/plugin install landing-page-builder@unleash-ventures` |
+| [linkedin-outreach](skills/linkedin-outreach/SKILL.md) | `/plugin install linkedin-outreach@unleash-ventures` |
+| [outbound-copy-manager](skills/outbound-copy-manager/SKILL.md) | `/plugin install outbound-copy-manager@unleash-ventures` |
+| [outreach-draft-writer](skills/outreach-draft-writer/SKILL.md) | `/plugin install outreach-draft-writer@unleash-ventures` |
+| [prospect-list-builder](skills/prospect-list-builder/SKILL.md) | `/plugin install prospect-list-builder@unleash-ventures` |
+| [sales-script-creator](skills/sales-script-creator/SKILL.md) | `/plugin install sales-script-creator@unleash-ventures` |
+| [seo-strategy-builder](skills/seo-strategy-builder/SKILL.md) | `/plugin install seo-strategy-builder@unleash-ventures` |
+| [unleash-stop-slop](skills/unleash-stop-slop/SKILL.md) | `/plugin install unleash-stop-slop@unleash-ventures` |
+| [venture-one-pager-builder](skills/venture-one-pager-builder/SKILL.md) | `/plugin install venture-one-pager-builder@unleash-ventures` |
+
+Some skills point to others. The Asset Foundation Builder feeds the landing page, outreach, sales script, ads and content skills, and the Inbound Marketing Playbook runs the Landing Page Builder and Drip Campaign Builder together. Install those alongside if you use them.
 
 ### From your terminal
 
@@ -45,7 +74,7 @@ Commit this to your repo's `.claude/settings.json`. When teammates trust the fol
 
 ### Use the skills
 
-Ask for what you need ("build me a landing page for…", "write a cold email sequence for…") and Claude picks the right skill. To call one directly, use `/unleash-venture-skills:<skill-name>`, e.g. `/unleash-venture-skills:landing-page-builder`. The skill names are the folder names under [`skills/`](skills/). Run `/skills` to see them all.
+Ask for what you need ("build me a landing page for…", "write a cold email sequence for…") and Claude picks the right skill. To call one directly, use `/unleash-venture-skills:<skill-name>`, e.g. `/unleash-venture-skills:landing-page-builder`. If you installed a single skill, the prefix is the skill's own name, e.g. `/landing-page-builder:landing-page-builder`. The skill names are the folder names under [`skills/`](skills/). Run `/skills` to see them all.
 
 The SEO Strategy Builder also needs two free MCP servers (Playwright and SerpApi). It checks for them on the first run and tells you the commands.
 
@@ -253,7 +282,7 @@ If you fail check 1 or 5, the foundation needs more work — go back to the corp
 
 Installed copies only update when the version number changes. A change merged without a version bump never reaches users.
 
-1. Bump `version` in **both** `.claude-plugin/plugin.json` and the plugin entry in `.claude-plugin/marketplace.json`:
+1. Bump `version` in `.claude-plugin/plugin.json` and in **every** plugin entry in `.claude-plugin/marketplace.json` (the bundle and each single-skill plugin share one version number):
    - **Patch** (1.0.**1**): wording fixes and clarifications inside a skill
    - **Minor** (1.**1**.0): a new skill, or a new step or output in an existing one
    - **Major** (**2**.0.0): a skill renamed or removed, or an output format other skills depend on changed

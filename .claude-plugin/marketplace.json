@@ -14,7 +14,180 @@
       "version": "1.0.0",
       "description": "Battle-tested go-to-market skills: asset foundations, landing pages, drip campaigns, prospect lists, cold outbound, LinkedIn, sales scripts, content, SEO strategy, Meta ads, investor one-pagers and a slop checker.",
       "category": "productivity",
-      "keywords": ["gtm", "marketing", "sales", "outbound", "landing-page", "copywriting", "seo"]
+      "keywords": [
+        "gtm",
+        "marketing",
+        "sales",
+        "outbound",
+        "landing-page",
+        "copywriting",
+        "seo"
+      ]
+    },
+    {
+      "name": "asset-foundation-builder",
+      "source": "./skills/asset-foundation-builder",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Builds the customer-truth foundation every other GTM asset draws on: a Kennedy 13-row CSV plus a niche-brief MD researched from YouTube, web, Reddit, forums, podcasts and call transcripts (pains, false beliefs, market size, jargon to use and avoid, recognition quotes, where the audience gathers, hooks).",
+      "category": "productivity"
+    },
+    {
+      "name": "content-engine",
+      "source": "./skills/content-engine",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Framework-driven content production with voice training, target-group research and platform optimisation.",
+      "category": "productivity"
+    },
+    {
+      "name": "drip-campaign-builder",
+      "source": "./skills/drip-campaign-builder",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Writes a 12-email, 25-day post-opt-in nurture sequence.",
+      "category": "productivity"
+    },
+    {
+      "name": "facebook-ads-from-customer-transcripts",
+      "source": "./skills/facebook-ads-from-customer-transcripts",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Turns customer interview transcripts into a battery of Facebook / Meta ad variants (hooks, bodies, CTAs) in the customer's own language.",
+      "category": "productivity"
+    },
+    {
+      "name": "how-to-run-a-company-brain",
+      "source": "./skills/how-to-run-a-company-brain",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Interviews you about your business, then hands you a ready-to-run build file that scaffolds a complete company brain: a folder-based memory Claude draws every answer from, so it stops guessing and remembers your context across chat, Cowork and Code.",
+      "category": "productivity"
+    },
+    {
+      "name": "inbound-marketing-playbook",
+      "source": "./skills/inbound-marketing-playbook",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Builds a landing page and its drip campaign together as one sequenced, aligned inbound funnel.",
+      "category": "productivity"
+    },
+    {
+      "name": "landing-page-builder",
+      "source": "./skills/landing-page-builder",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Builds a high-converting two-page landing page plus progressive signup flow for a specific niche, with scene-first headlines, proof-only claims and pre-publish checks.",
+      "category": "productivity"
+    },
+    {
+      "name": "linkedin-outreach",
+      "source": "./skills/linkedin-outreach",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Runs a systematic LinkedIn connection and DM pipeline with safety limits.",
+      "category": "productivity"
+    },
+    {
+      "name": "outbound-copy-manager",
+      "source": "./skills/outbound-copy-manager",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Writes a 3-email cold outbound sequence with 5 opener variants for A/B testing.",
+      "category": "productivity"
+    },
+    {
+      "name": "outreach-draft-writer",
+      "source": "./skills/outreach-draft-writer",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Drafts content-first LinkedIn and email outreach using an engagement-before-outreach playbook, with a Cialdini principle mapped to each message.",
+      "category": "productivity"
+    },
+    {
+      "name": "prospect-list-builder",
+      "source": "./skills/prospect-list-builder",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Systematic prospect identification, enrichment and scoring (Sales Navigator, Dream 100, multi-source export).",
+      "category": "productivity"
+    },
+    {
+      "name": "sales-script-creator",
+      "source": "./skills/sales-script-creator",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Builds a niche-specific discovery and closing sales framework in English or German from your customer interview transcripts, based on Belfort (Straight Line + Looping), Hormozi (Value Equation) and Kagan (validation-first).",
+      "category": "productivity"
+    },
+    {
+      "name": "seo-strategy-builder",
+      "source": "./skills/seo-strategy-builder",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Crawls your website with a real browser, researches live search results for your niche, and returns a prioritised list of new pages to create — each with a target keyword, a demand estimate backed by evidence, and the reason you can rank.",
+      "category": "productivity"
+    },
+    {
+      "name": "unleash-stop-slop",
+      "source": "./skills/unleash-stop-slop",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Strips the AI tells out of any draft before it goes out.",
+      "category": "productivity"
+    },
+    {
+      "name": "venture-one-pager-builder",
+      "source": "./skills/venture-one-pager-builder",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "version": "1.0.0",
+      "description": "Audits a completed venture assessment against what an angel or advisor needs to see, reports what's missing, then builds a branded one-page PDF in your own CI plus the intro blurb that carries it.",
+      "category": "productivity"
     }
   ]
 }
