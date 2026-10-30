@@ -1,3 +1,8 @@
+---
+name: drip-campaign-builder
+description: "Writes a 12-email, 25-day post-opt-in nurture sequence. Use when converting landing-page leads into calls or demos, or when asked for a drip, nurture or welcome email sequence."
+---
+
 # Drip Campaign Builder Skill
 
 ### At a glance
@@ -222,7 +227,7 @@ This skill is product-agnostic. When applying to a specific product:
 - **Email 7 (transformation)** ← Rows 11–12 (Secondary + Auxiliary Benefits)
 - **Email 11 (offer + value stack)** ← Row 10 (Bodacious Claim) + Row 11 (quantified benefits)
 
-Run `asset-foundation-builder.md` first.
+Run the `asset-foundation-builder` skill first.
 
 ---
 

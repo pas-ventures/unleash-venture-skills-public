@@ -1,3 +1,8 @@
+---
+name: content-engine
+description: "Framework-driven content production with voice training, target-group research and platform optimisation. Use when producing founder-led thought leadership at scale (LinkedIn posts, articles, newsletters)."
+---
+
 # Content Engine Skill
 
 ### At a glance
@@ -551,7 +556,7 @@ Before delivering any content piece, verify:
 
 ## Configuration Template
 
-Fill in this YAML before running the skill. Every value should come from your Asset Foundations CSV (run `asset-foundation-builder.md` first if you don't have one).
+Fill in this YAML before running the skill. Every value should come from your Asset Foundations CSV (run the `asset-foundation-builder` skill first if you don't have one).
 
 ```yaml
 venture: {YOUR_VENTURE_NAME}
@@ -613,7 +618,7 @@ This skill is venture-agnostic. When applying:
 - **False beliefs to dismantle** ← Row 6 (failed alternatives) + Row 4 (frustration sources)
 - **Bodacious headline formula** ← Row 10
 
-Run `asset-foundation-builder.md` first for the customer-side inputs; the voice fingerprint is independent.
+Run the `asset-foundation-builder` skill first for the customer-side inputs; the voice fingerprint is independent.
 
 ---
 

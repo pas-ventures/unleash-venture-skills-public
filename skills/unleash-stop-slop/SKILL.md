@@ -1,8 +1,7 @@
 ---
 name: unleash-stop-slop
-description: Strips the AI tells out of any draft before it goes out. Detects the register first, scans for LLM giveaways — contrast-clichés, false agency, vague attribution, document-level dilution — scores the draft out of 50, and returns a cleaned rewrite. Built for founder copy: investor updates, decks, cold outreach, customer email, posts.
-tools: Read, Grep, Glob
-model: sonnet
+description: "Strips the AI tells out of any draft before it goes out. Detects the register first, scans for LLM giveaways (contrast-clichés, false agency, vague attribution, document-level dilution), scores the draft out of 50 and returns a cleaned rewrite. Use before sending or publishing founder copy: investor updates, decks, cold outreach, customer email, posts."
+allowed-tools: Read, Grep, Glob
 ---
 
 # Unleash Stop Slop

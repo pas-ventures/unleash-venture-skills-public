@@ -1,3 +1,8 @@
+---
+name: outbound-copy-manager
+description: "Writes a 3-email cold outbound sequence with 5 opener variants for A/B testing. Use when running cold email campaigns into a new niche."
+---
+
 # Outbound Copy Manager Skill
 
 ### At a glance
@@ -226,7 +231,7 @@ Before using, replace these placeholders:
 - **Email 3 (close)** ← Row 9 (Solution / Vehicle) + Row 10 (Bodacious Claim)
 - **Subject lines** ← rotate Row 2 (desire) / Row 7 (trend) / Row 10 (claim)
 
-Run `asset-foundation-builder.md` first.
+Run the `asset-foundation-builder` skill first.
 
 ---
 

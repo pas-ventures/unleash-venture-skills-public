@@ -1,3 +1,8 @@
+---
+name: outreach-draft-writer
+description: "Drafts content-first LinkedIn and email outreach using an engagement-before-outreach playbook, with a Cialdini principle mapped to each message. Use for personal, founder-led outreach rather than a cold blast."
+---
+
 # Outreach Draft Writer Skill
 
 ### At a glance
@@ -336,7 +341,7 @@ Before delivering any outreach sequence, verify:
 
 ## Configuration Template
 
-Fill in this YAML before running the skill. Every value should come from your Asset Foundations CSV (run `asset-foundation-builder.md` first if you don't have one).
+Fill in this YAML before running the skill. Every value should come from your Asset Foundations CSV (run the `asset-foundation-builder` skill first if you don't have one).
 
 ```yaml
 venture: {YOUR_VENTURE_NAME}
@@ -485,7 +490,7 @@ Status: Live — ready to use now.
 - **Follow-up data point** ← Row 7 (specific trend stat — sourced and citable)
 - **Soft close** ← Row 10 (Bodacious Claim, framed as conversation invite, not pitch)
 
-Run `asset-foundation-builder.md` first.
+Run the `asset-foundation-builder` skill first.
 
 ---
 

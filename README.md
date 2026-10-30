@@ -4,53 +4,134 @@ A set of battle-tested go-to-market skills for [Claude Code](https://claude.ai/c
 
 These are the skills used inside the [Unleash](https://unleash-ventures.com) community to ship GTM assets in hours, not workshop weeks.
 
+## Install
+
+This repo is a Claude Code plugin marketplace. The marketplace is called `unleash-ventures` and holds one plugin, `unleash-venture-skills`, which contains all 15 skills.
+
+### In Claude Code
+
+```
+/plugin marketplace add pas-ventures/unleash-venture-skills-public
+/plugin install unleash-venture-skills@unleash-ventures
+```
+
+Then run `/reload-plugins`, or start a new session.
+
+### From your terminal
+
+```bash
+claude plugin marketplace add pas-ventures/unleash-venture-skills-public
+claude plugin install unleash-venture-skills@unleash-ventures
+```
+
+By default the skills are installed for you in every project (`--scope user`). Add `--scope project` to install them for one repo only and share them with everyone who works in it.
+
+### Set it up for a team
+
+Commit this to your repo's `.claude/settings.json`. When teammates trust the folder, Claude Code asks them to install the marketplace and turns the plugin on:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "unleash-ventures": {
+      "source": { "source": "github", "repo": "pas-ventures/unleash-venture-skills-public" }
+    }
+  },
+  "enabledPlugins": {
+    "unleash-venture-skills@unleash-ventures": true
+  }
+}
+```
+
+### Use the skills
+
+Ask for what you need ("build me a landing page for…", "write a cold email sequence for…") and Claude picks the right skill. To call one directly, use `/unleash-venture-skills:<skill-name>`, e.g. `/unleash-venture-skills:landing-page-builder`. The skill names are the folder names under [`skills/`](skills/). Run `/skills` to see them all.
+
+The SEO Strategy Builder also needs two free MCP servers (Playwright and SerpApi). It checks for them on the first run and tells you the commands.
+
+### Update or remove
+
+```bash
+claude plugin marketplace update unleash-ventures            # pull the latest skills
+claude plugin uninstall unleash-venture-skills@unleash-ventures
+claude plugin marketplace remove unleash-ventures
+```
+
+**Switching from copied files?** Before the plugin existed, skills were copied by hand from `.md` files in this repo's root, and those files are gone now. Once the plugin is installed, delete your old copies from `~/.claude/skills/` or your project's `.claude/skills/` so you don't end up with two versions of the same skill.
+
+### Turn on auto-update
+
+Claude Code leaves auto-update off for third-party marketplaces, so switch it on once:
+
+1. Run `/plugin` and open the **Marketplaces** tab
+2. Select `unleash-ventures`
+3. Choose **Enable auto-update**
+
+Claude Code then checks for new skill versions in the background after each session starts and asks you to run `/reload-plugins` when something changed. Without auto-update, pull changes by hand with `/plugin marketplace update unleash-ventures`.
+
+For organisations, admins can turn it on for everyone in managed settings:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "unleash-ventures": {
+      "source": { "source": "github", "repo": "pas-ventures/unleash-venture-skills-public" },
+      "autoUpdate": true
+    }
+  }
+}
+```
+
 ## Skills Included
 
 ### Company OS (build this first)
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[How to Run a Company Brain](how-to-run-a-company-brain.md)** | Interviews you about your business, then hands you a ready-to-run build file that scaffolds a complete "company brain" — a folder-based memory Claude draws every answer from, so it stops guessing and remembers your context across chat, Cowork, and Code. Built by a founder in the Unleash community. | Before you automate anything — when you're tired of re-explaining your business to Claude every session |
+| **[How to Run a Company Brain](skills/how-to-run-a-company-brain/SKILL.md)** | Interviews you about your business, then hands you a ready-to-run build file that scaffolds a complete "company brain" — a folder-based memory Claude draws every answer from, so it stops guessing and remembers your context across chat, Cowork, and Code. Built by a founder in the Unleash community. | Before you automate anything — when you're tired of re-explaining your business to Claude every session |
 
 ### Foundations (start here)
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Asset Foundation Builder](asset-foundation-builder.md)** | Kennedy 13-row CSV + niche-brief MD from YouTube / web / Reddit / forums / podcasts / call transcripts. Pains, false beliefs, market size, jargon (use vs avoid), recognition quotes, where they gather, hooks. The upstream contract every other skill consumes. | Before writing any copy or building any landing page |
+| **[Asset Foundation Builder](skills/asset-foundation-builder/SKILL.md)** | Kennedy 13-row CSV + niche-brief MD from YouTube / web / Reddit / forums / podcasts / call transcripts. Pains, false beliefs, market size, jargon (use vs avoid), recognition quotes, where they gather, hooks. The upstream contract every other skill consumes. | Before writing any copy or building any landing page |
 
 ### Inbound (capture + nurture)
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Landing Page Builder](landing-page-builder.md)** | Build a high-converting 2-page landing page + progressive signup flow | You need a niche-specific landing page fast |
-| **[Drip Campaign Builder](drip-campaign-builder.md)** | 12-email, 25-day post-opt-in nurture sequence | Converting landing-page leads into calls / demos |
-| **[Inbound Marketing Playbook](inbound-marketing-playbook.md)** | Combined Landing Page + Drip Campaign as a single sequenced funnel | You want both assets built and aligned in one pass |
+| **[Landing Page Builder](skills/landing-page-builder/SKILL.md)** | Build a high-converting 2-page landing page + progressive signup flow | You need a niche-specific landing page fast |
+| **[Drip Campaign Builder](skills/drip-campaign-builder/SKILL.md)** | 12-email, 25-day post-opt-in nurture sequence | Converting landing-page leads into calls / demos |
+| **[Inbound Marketing Playbook](skills/inbound-marketing-playbook/SKILL.md)** | Combined Landing Page + Drip Campaign as a single sequenced funnel | You want both assets built and aligned in one pass |
 
 ### Outbound (direct prospecting)
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Prospect List Builder](prospect-list-builder.md)** | Systematic prospect identification, enrichment, and scoring (Sales Navigator, Dream 100, multi-source export) | Before launching any outbound or ABM campaign |
-| **[Outbound Copy Manager](outbound-copy-manager.md)** | 3-email cold outbound sequence with 5 opener variants for A/B testing | Running cold email campaigns to a new niche |
-| **[Outreach Draft Writer](outreach-draft-writer.md)** | Content-first LinkedIn / email outreach with engagement-before-outreach playbook and Cialdini principles per message | When you want personal, founder-led outreach (not cold blast) |
-| **[LinkedIn Outreach](linkedin-outreach.md)** | Systematic LinkedIn connection + DM pipeline with safety limits | Building founder / prospect pipeline via LinkedIn |
+| **[Prospect List Builder](skills/prospect-list-builder/SKILL.md)** | Systematic prospect identification, enrichment, and scoring (Sales Navigator, Dream 100, multi-source export) | Before launching any outbound or ABM campaign |
+| **[Outbound Copy Manager](skills/outbound-copy-manager/SKILL.md)** | 3-email cold outbound sequence with 5 opener variants for A/B testing | Running cold email campaigns to a new niche |
+| **[Outreach Draft Writer](skills/outreach-draft-writer/SKILL.md)** | Content-first LinkedIn / email outreach with engagement-before-outreach playbook and Cialdini principles per message | When you want personal, founder-led outreach (not cold blast) |
+| **[LinkedIn Outreach](skills/linkedin-outreach/SKILL.md)** | Systematic LinkedIn connection + DM pipeline with safety limits | Building founder / prospect pipeline via LinkedIn |
 
 ### Sales + Conversion
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Sales Script Creator](sales-script-creator.md)** | Bilingual (EN / DE) discovery + closing framework from your customer transcripts. Belfort + Hormozi + Kagan under the hood | When launching outbound into a new niche with real interview data |
+| **[Sales Script Creator](skills/sales-script-creator/SKILL.md)** | Bilingual (EN / DE) discovery + closing framework from your customer transcripts. Belfort + Hormozi + Kagan under the hood | When launching outbound into a new niche with real interview data |
 
 ### Content + Paid
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Content Engine](content-engine.md)** | Framework-driven content production with voice training, target-group research, platform optimization | Producing founder-led thought leadership at scale |
-| **[Facebook Ads From Customer Transcripts](facebook-ads-from-customer-transcripts.md)** | Turn customer transcripts into hook / body / CTA variants in the customer's own language | Running Meta ads in B2C or SMB-B2B |
+| **[Content Engine](skills/content-engine/SKILL.md)** | Framework-driven content production with voice training, target-group research, platform optimization | Producing founder-led thought leadership at scale |
+| **[Facebook Ads From Customer Transcripts](skills/facebook-ads-from-customer-transcripts/SKILL.md)** | Turn customer transcripts into hook / body / CTA variants in the customer's own language | Running Meta ads in B2C or SMB-B2B |
+| **[SEO Strategy Builder](skills/seo-strategy-builder/SKILL.md)** | Crawls your site with a real browser (Playwright MCP), researches live search results (SerpApi MCP), and returns a ranked list of pages to build — target keyword, demand graded from evidence, why you can rank, and a brief for each | Before writing for search, or when organic traffic has stalled |
+
+The SEO workflow is adapted from [James Devonport's write-up](https://jamesdevonport.com/p/i-got-claude-code-to-build-my-entire) on building an SEO strategy with Claude Code and two free MCPs.
 
 ### Fundraising + Intros
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Venture One-Pager Builder](venture-one-pager-builder.md)** | Audits your completed venture assessment against what an angel or advisor needs to see, tells you what's missing, then builds a branded one-page PDF in your own CI plus the intro blurb that carries it | Approaching an angel, operator, advisor or design partner — or whenever someone says "send me something short" |
+| **[Venture One-Pager Builder](skills/venture-one-pager-builder/SKILL.md)** | Audits your completed venture assessment against what an angel or advisor needs to see, tells you what's missing, then builds a branded one-page PDF in your own CI plus the intro blurb that carries it | Approaching an angel, operator, advisor or design partner — or whenever someone says "send me something short" |
 
 ### Quality + Voice
 | Skill | What it does | Use when |
 |-------|-------------|----------|
-| **[Unleash Stop Slop](unleash-stop-slop.md)** | Detects which register you're writing in, then strips the AI tells: contrast-clichés, false agency ("the market rewards"), vague attribution, invented concept labels, and the document-level dilution that only shows up at length. Scores the draft out of 50 and returns a cleaned rewrite. | Before sending or publishing anything: investor updates, decks, cold outreach, customer email, posts |
+| **[Unleash Stop Slop](skills/unleash-stop-slop/SKILL.md)** | Detects which register you're writing in, then strips the AI tells: contrast-clichés, false agency ("the market rewards"), vague attribution, invented concept labels, and the document-level dilution that only shows up at length. Scores the draft out of 50 and returns a cleaned rewrite. | Before sending or publishing anything: investor updates, decks, cold outreach, customer email, posts |
 
 Built on **[stop-slop](https://github.com/hardikpandya/stop-slop)** by [Hardik Pandya](https://hvpandya.com) and **[slop-cop](https://github.com/awnist/slop-cop)** by [awnist](https://awnist.com/slop-cop), both MIT. Use the originals if you prefer them — they are excellent, and most of the pattern taxonomy is theirs. What we added is a register model: the same rules that sharpen a LinkedIn post will strip the warmth out of an email to a customer, so this version picks the standard based on what you're actually writing.
 
@@ -90,24 +171,25 @@ Built on **[stop-slop](https://github.com/hardikpandya/stop-slop)** by [Hardik P
 
 ## How to Use with Claude Code
 
-### Option A: Drop into project context
-Copy the `.md` files into your project's root or a `skills/` folder. Claude Code will pick them up as project context.
+### Option A: Install the plugin (recommended)
+See [Install](#install). Skills load automatically in every project and stay current once you [turn on auto-update](#turn-on-auto-update).
 
-### Option B: Add to Claude Code memory
-Copy files into your Claude Code memory directory:
+### Option B: Copy into a project
+Copy any folder from `skills/` into your project's `.claude/skills/` (or `~/.claude/skills/` for all projects). Claude Code loads each `SKILL.md` as a skill.
+
+### Option C: Fork this repo
+Fork the repo, replace the placeholders with your venture's specifics, and add your fork as the marketplace instead: `/plugin marketplace add {your-github-user}/unleash-venture-skills-public`.
+
+To try your changes before pushing, run these from the repo root:
+
+```bash
+claude plugin validate .         # check the manifests and skills
+claude --plugin-dir .            # start a session with your working copy loaded
 ```
-~/.claude/projects/{your-project}/memory/
-```
-
-### Option C: Reference directly
-Just tell Claude: *"Use the Landing Page Builder skill in `skills/landing-page-builder.md` to build a page for {niche}."*
-
-### Option D: Fork this repo
-Fork the repo, replace the placeholders with your venture's specifics, and use it as a reusable skill set across all your projects.
 
 ## Customisation
 
-Each skill uses `{PLACEHOLDER}` variables. Before first use, search for `{` and replace:
+Each skill uses `{PLACEHOLDER}` variables and includes a Configuration Template:
 
 - `{PRODUCT_NAME}` — your product or service
 - `{COMPANY}` — your company name
@@ -115,7 +197,7 @@ Each skill uses `{PLACEHOLDER}` variables. Before first use, search for `{` and 
 - `{BOOKING_LINK}` — your Calendly or scheduling link
 - `{SENDER_NAME}` — person sending outbound emails
 
-Each skill includes a Configuration Template using `{PLACEHOLDER}` syntax. Search for `{` and replace each placeholder with your venture's specifics before running the skill.
+With the plugin installed, give Claude these values in conversation (or keep them in your company brain, built with the `how-to-run-a-company-brain` skill) and it fills them in as it runs. To hard-code them, fork the repo (Option C) or copy the skills into your project (Option B) and search-and-replace each `{`.
 
 ## Frameworks Underneath
 
@@ -166,6 +248,23 @@ If even 20% reads as outsider voice, strip until practitioner phrases dominate. 
 ---
 
 If you fail check 1 or 5, the foundation needs more work — go back to the corpus. Checks 2–4 are run after launch, mostly to optimize spend. Run check 1 weekly during the first quarter of a niche; run check 5 every time you change copy.
+
+## Releasing (maintainers)
+
+Installed copies only update when the version number changes. A change merged without a version bump never reaches users.
+
+1. Bump `version` in **both** `.claude-plugin/plugin.json` and the plugin entry in `.claude-plugin/marketplace.json`:
+   - **Patch** (1.0.**1**): wording fixes and clarifications inside a skill
+   - **Minor** (1.**1**.0): a new skill, or a new step or output in an existing one
+   - **Major** (**2**.0.0): a skill renamed or removed, or an output format other skills depend on changed
+2. Run `claude plugin validate .`
+3. Merge to `main`, then from an up-to-date `main` tag and push the release:
+
+```bash
+claude plugin tag . --push -m "Release %s"
+```
+
+This creates the tag `unleash-venture-skills--v{version}`, and fails if the two manifest versions don't match.
 
 ## License + Use
 

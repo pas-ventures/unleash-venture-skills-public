@@ -1,3 +1,8 @@
+---
+name: landing-page-builder
+description: "Builds a high-converting two-page landing page plus progressive signup flow for a specific niche, with scene-first headlines, proof-only claims and pre-publish checks. Use when you need a niche-specific landing page, opt-in page or signup funnel fast."
+---
+
 # Landing Page Builder Skill
 
 ### At a glance
@@ -48,7 +53,7 @@ These principles come from real-world battle-testing on conservative B2B audienc
 20. **Answer the audience's first objections** in the FAQ, concretely and without invented commitments (e.g. works council, customer data, "it's all in our system already", budget).
 
 ### F · Before anyone sees it
-21. **Three checks before showing a draft:** a slop check (`unleash-stop-slop.md`), a target-group check per niche that plays every role, and a fact check against sources.
+21. **Three checks before showing a draft:** a slop check (the `unleash-stop-slop` skill), a target-group check per niche that plays every role, and a fact check against sources.
 22. **No placeholder and no unconfirmed commitment on the page.** Open items go on the operator's open-points list, not on the page.
 
 ## Overview
@@ -113,7 +118,7 @@ If `{REFERENCE_LANDING_URL}` is provided, fetch it and extract the actual hex co
 
 **0d. Foundation upstream (mandatory)**
 
-The landing page consumes the Asset Foundation CSV + niche-brief MD produced by `asset-foundation-builder.md`. If those don't exist, run that skill FIRST. Hero / pain story / stats / feature cards all map to specific Foundation rows (see Hand-off section below).
+The landing page consumes the Asset Foundation CSV + niche-brief MD produced by the `asset-foundation-builder` skill. If those don't exist, run that skill FIRST. Hero / pain story / stats / feature cards all map to specific Foundation rows (see Hand-off section below).
 
 ---
 
@@ -305,7 +310,7 @@ Before using, replace these placeholders:
 - **Daily-example / scenario** ← Row 12 (Auxiliary Benefits — identity-level payoff)
 - **Objection FAQ** ← Row 6 + Row 4 (frustration sources)
 
-Run `asset-foundation-builder.md` first if you don't have a filled CSV.
+Run the `asset-foundation-builder` skill first if you don't have a filled CSV.
 
 ---
 
@@ -323,5 +328,5 @@ Run `asset-foundation-builder.md` first if you don't have a filled CSV.
 - [ ] **No GPT-language** — strip on sight: *leverage, synergize, unlock, streamline, delve, ecosystem, robust, holistic, cutting-edge, next-gen, disruptive*. DE: strip *skalieren, Stack, Pipeline, Funnel, Conversion-Rate-Optimierung* (Sales-Englisch — German operators recognise it instantly as outsider voice).
 - [ ] **No fabricated stats** — every number has a source citation; if unverifiable, mark `[needs validation]`. Common to hallucinate "73% of X say Y" — never ship without a real source URL.
 - [ ] **Build Principles applied** — one headline per role, scene not claim, no product in the hero, only real proof, no placeholder visible.
-- [ ] **Three checks run** — slop check (`unleash-stop-slop.md`), target-group check per role, fact check (Principle 21).
+- [ ] **Three checks run** — slop check (the `unleash-stop-slop` skill), target-group check per role, fact check (Principle 21).
 - [ ] **No venture-specific brand baked in** — output uses operator-supplied `{COMPANY}`, `{PRODUCT_NAME}`, `{PRIMARY_HEX}` etc. The skill itself is venture-agnostic; venture content is injected at runtime.

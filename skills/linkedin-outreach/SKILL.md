@@ -1,3 +1,8 @@
+---
+name: linkedin-outreach
+description: "Runs a systematic LinkedIn connection and DM pipeline with safety limits. Use when building a founder or prospect pipeline via LinkedIn connection requests and direct messages."
+---
+
 # LinkedIn Outreach Skill
 
 ### At a glance
@@ -204,7 +209,7 @@ Before using, replace these placeholders:
 - **DM 2 (insight)** ← Row 7 (Trends) + Row 12 (Auxiliary)
 - **DM 3 (CTA)** ← Row 9 (Solution) + Row 10 (Bodacious Claim, framed as low-commitment ask)
 
-Run `asset-foundation-builder.md` first.
+Run the `asset-foundation-builder` skill first.
 
 ---
 

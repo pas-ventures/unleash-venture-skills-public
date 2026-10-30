@@ -1,7 +1,6 @@
 ---
-name: Sales Script Creator
-description: Build a niche-specific discovery + closing sales framework in English or German from your customer interview transcripts. Based on Belfort (Straight Line + Looping), Hormozi (Value Equation), and Kagan (validation-first). You provide the niche + transcripts; this skill produces a deep, customer-language-grounded script that you can run the same day.
-type: skill
+name: sales-script-creator
+description: "Builds a niche-specific discovery and closing sales framework in English or German from your customer interview transcripts, based on Belfort (Straight Line + Looping), Hormozi (Value Equation) and Kagan (validation-first). Use when launching outbound into a new niche with real interview data, or when asked for a sales, discovery or closing call script."
 ---
 
 # Sales Script Creator
@@ -435,7 +434,7 @@ When invoked, do this in order:
 - **Closing language** ← Row 10 (Bodacious Claim) + Row 12 (Auxiliary, identity-level)
 - **Scorecard rubric** ← Rows 1, 2, 9 (does the rep speak the prospect's Position, Desire, Vehicle in their own words?)
 
-Run `asset-foundation-builder.md` first.
+Run the `asset-foundation-builder` skill first.
 
 ---
 

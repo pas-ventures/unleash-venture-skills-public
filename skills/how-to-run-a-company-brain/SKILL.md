@@ -1,7 +1,6 @@
 ---
-name: How to Run a Company Brain
-description: Interviews you about your business, then hands you a ready-to-run build file that scaffolds a complete "company brain" — a folder-based memory Claude draws every answer from, so it stops guessing and remembers your context across chat, Cowork, and Code. Built by a founder in the Unleash community.
-type: skill
+name: how-to-run-a-company-brain
+description: "Interviews you about your business, then hands you a ready-to-run build file that scaffolds a complete company brain: a folder-based memory Claude draws every answer from, so it stops guessing and remembers your context across chat, Cowork and Code. Use before automating anything, or when you're tired of re-explaining your business to Claude every session."
 ---
 
 # How to Run a Company Brain

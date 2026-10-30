@@ -1,3 +1,8 @@
+---
+name: inbound-marketing-playbook
+description: "Builds a landing page and its drip campaign together as one sequenced, aligned inbound funnel. Use when you want both the capture page and the nurture sequence built in one pass."
+---
+
 # Inbound Marketing Playbook
 
 ### At a glance
@@ -26,17 +31,17 @@ If you only need ONE of the two assets, use that skill directly. This playbook a
 ## Step 1 — Run Asset Foundation Builder (if not done)
 
 The 13-row CSV + niche-brief is the upstream contract for both downstream skills.
-→ See `asset-foundation-builder.md`
+→ See the `asset-foundation-builder` skill
 
 ## Step 2 — Run Landing Page Builder
 
 The funnel's entry point. Captures email + minimum qualifying data.
-→ See `landing-page-builder.md`
+→ See the `landing-page-builder` skill
 
 ## Step 3 — Run Drip Campaign Builder
 
 12-email / 25-day post-opt-in nurture sequence.
-→ See `drip-campaign-builder.md`
+→ See the `drip-campaign-builder` skill
 
 ## Step 4 — Alignment work (UNIQUE to this skill)
 

@@ -1,3 +1,8 @@
+---
+name: venture-one-pager-builder
+description: "Audits a completed venture assessment against what an angel or advisor needs to see, reports what's missing, then builds a branded one-page PDF in your own CI plus the intro blurb that carries it. Use when approaching an angel, operator, advisor or design partner, or whenever someone says \"send me something short\"."
+---
+
 # Venture One-Pager Builder Skill
 
 ### At a glance
@@ -546,7 +551,7 @@ Run every item. Any fail is a rewrite, not a note.
 - [ ] The page leaves the reader with at least two questions they have to ask you
 - [ ] The brand colours and fonts match their website — confirmed with the founder, not guessed
 - [ ] Read the blurb aloud. Anywhere your voice flattens, cut it
-- [ ] Run the whole thing through [Unleash Stop Slop](unleash-stop-slop.md) before it leaves their hands
+- [ ] Run the whole thing through [Unleash Stop Slop](../unleash-stop-slop/SKILL.md) before it leaves their hands
 
 ---
 
@@ -650,5 +655,5 @@ Run every item. Any fail is a rewrite, not a note.
 ## Companion skills
 
 - Run the **venture assessment** first — this skill has nothing to compress without it
-- [**Unleash Stop Slop**](unleash-stop-slop.md) last, on both the page copy and the blurb, before either is sent
+- [**Unleash Stop Slop**](../unleash-stop-slop/SKILL.md) last, on both the page copy and the blurb, before either is sent
 - **Outreach Draft Writer** if the intro turns into a sequence rather than a single message

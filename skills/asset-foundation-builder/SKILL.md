@@ -1,3 +1,8 @@
+---
+name: asset-foundation-builder
+description: "Builds the customer-truth foundation every other GTM asset draws on: a Kennedy 13-row CSV plus a niche-brief MD researched from YouTube, web, Reddit, forums, podcasts and call transcripts (pains, false beliefs, market size, jargon to use and avoid, recognition quotes, where the audience gathers, hooks). Use before writing any copy or building any landing page, or when entering a new niche."
+---
+
 # Asset Foundation Builder Skill
 
 ### At a glance
@@ -433,14 +438,14 @@ Before delivering, run this checklist:
 - Write the niche-brief MD alongside.
 - Hand back both file paths plus a one-paragraph summary per niche so the user can scan before opening the files.
 - Recommend the next skill to run, based on which downstream asset the user needs first:
-  - Landing page → `landing-page-builder.md`
-  - Outbound copy → `outbound-copy-manager.md`
-  - Sales script → `sales-script-creator.md`
-  - Facebook ads → `facebook-ads-from-customer-transcripts.md`
-  - Drip campaign → `drip-campaign-builder.md`
-  - Prospect list → `prospect-list-builder.md`
-  - LinkedIn outreach → `linkedin-outreach.md`
-  - Content engine → `content-engine.md`
+  - Landing page → the `landing-page-builder` skill
+  - Outbound copy → the `outbound-copy-manager` skill
+  - Sales script → the `sales-script-creator` skill
+  - Facebook ads → the `facebook-ads-from-customer-transcripts` skill
+  - Drip campaign → the `drip-campaign-builder` skill
+  - Prospect list → the `prospect-list-builder` skill
+  - LinkedIn outreach → the `linkedin-outreach` skill
+  - Content engine → the `content-engine` skill
 
 ## What a filled cell should look like
 

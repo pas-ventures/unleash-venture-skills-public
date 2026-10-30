@@ -1,7 +1,6 @@
 ---
-name: Facebook Ads From Customer Transcripts
-description: Turn a set of customer interview transcripts into a battery of Facebook / Meta ad variants (hooks, bodies, CTAs) that use the customer's own language. For B2C and SMB-B2B where Meta ads are a viable channel.
-type: skill
+name: facebook-ads-from-customer-transcripts
+description: "Turns customer interview transcripts into a battery of Facebook / Meta ad variants (hooks, bodies, CTAs) in the customer's own language. For B2C and SMB-B2B where Meta ads are viable. Use when running or planning Meta ads and you have transcripts, calls or interviews to mine."
 ---
 
 # Facebook Ads From Customer Transcripts
@@ -194,7 +193,7 @@ If your hooks read like direct quotes from your transcripts and your CTAs ladder
 - **Creative brief / scene direction** ← Row 1 (Position — setting, situation, who's nearby)
 - **"Do not use" list** ← inverse of Row 1's vocabulary (jargon insiders use that scrollers won't recognise in 3 seconds)
 
-Run `asset-foundation-builder.md` first.
+Run the `asset-foundation-builder` skill first.
 
 ---
 

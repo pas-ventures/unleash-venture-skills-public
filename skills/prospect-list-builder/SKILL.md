@@ -1,3 +1,8 @@
+---
+name: prospect-list-builder
+description: "Systematic prospect identification, enrichment and scoring (Sales Navigator, Dream 100, multi-source export). Use before launching any outbound or ABM campaign, or when asked to build, enrich or score a lead list."
+---
+
 # Prospect List Builder Skill
 
 ### At a glance
@@ -357,7 +362,7 @@ Before delivering the final list, verify:
 
 ## Configuration Template
 
-Fill in this YAML before running the skill. Every value should come from your Asset Foundations CSV (run `asset-foundation-builder.md` first if you don't have one).
+Fill in this YAML before running the skill. Every value should come from your Asset Foundations CSV (run the `asset-foundation-builder` skill first if you don't have one).
 
 ```yaml
 venture: {YOUR_VENTURE_NAME}
@@ -492,7 +497,7 @@ Status: Live — ready to use now.
 - **Trigger-event filters** ← Row 7 (market trends + threats)
 - **Dream 100 communities** ← Row 6 (where they look for solutions) + Row 1 (where they self-identify)
 
-Run `asset-foundation-builder.md` first.
+Run the `asset-foundation-builder` skill first.
 
 ---
 
